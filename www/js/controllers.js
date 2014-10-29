@@ -12,13 +12,8 @@ angular.module('starter.controllers', [])
   });
 
   // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
+  $scope.cancelLogin = function() {
     $scope.modal.hide();
-  };
-
-  // Open the login modal
-  $scope.login = function() {
-    $scope.modal.show();
   };
 
 })
