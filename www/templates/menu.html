@@ -10,8 +10,12 @@
         <img class="logo-dim" src="img/intuu.png">
       </ion-nav-buttons>
       <ion-nav-buttons side="right">
-        <button class="button button-icon icon ion-location"></button>
-        <button class="button button-icon icon ion-search"></button>
+        <a href ui-sref="">
+          <button class="button button-icon icon ion-location"></button>
+        </a>
+        <a href ui-sref="app.search">
+          <button class="button button-icon icon ion-search"></button>
+        </a>
         <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
       </ion-nav-buttons>
 
@@ -20,28 +24,20 @@
   </ion-pane>
 
   <ion-side-menu side="right">
-    <header class="bar bar-header bar-light">
-      <h1 class="title">right</h1>
-    </header>
-    <ion-content class="has-header">
+    <ion-content>
+
       <ion-list>
         <ion-item nav-clear menu-close href="#/app/login">
-          Login
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+          Iniciar sesión &nbsp; <i class="icon ion-log-in"></i>
         </ion-item>
         <ion-item nav-clear menu-close ng-show="user.authenticated" href="#/app/browse">
           Browse
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
-        </ion-item>
         <ion-item nav-clear menu-close href="#" ua-logout>
-          Log out
+          Cerrar sesión &nbsp; <i class="icon ion-log-out"></i>
         </ion-item>
-
       </ion-list>
+
     </ion-content>
   </ion-side-menu>
 </ion-side-menus>
