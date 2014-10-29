@@ -56,6 +56,40 @@ angular.module('intuu', ['ionic', 'starter.controllers', 'UserApp'])
       data: { public: true }
     })
 
+    .state('app.cuestionario', {
+      url: '/cuestionario',
+      views: {
+        'menuContent' :{
+          templateUrl: 'templates/cuestionario.html'
+        }
+      },
+      data: { public: true }
+    })
+    .state('app.q1', {
+      url: "/cuestionario/1",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/q1.html"
+        }
+      }
+    })
+    .state('app.q2', {
+      url: "/cuestionario/2",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/q2.html"
+        }
+      }
+    })
+    .state('app.q3', {
+      url: "/cuestionario/3",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/q3.html"
+        }
+      }
+    })
+
     .state('app.search', {
       url: "/search",
       views: {
@@ -103,6 +137,6 @@ angular.module('intuu', ['ionic', 'starter.controllers', 'UserApp'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/magazine');
+  $urlRouterProvider.otherwise('/app/cuestionario');
 });
 
