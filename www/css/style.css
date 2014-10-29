@@ -11,6 +11,12 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a83b64', endColorstr='#575d96',GradientType=1 );
 }
 
+.logo-dim {
+	margin-top: 3px;
+	width: 77px;
+	height: 23px;
+}
+
 .intuu-gradient {
 	background: #892250;
 	background: -moz-linear-gradient(-45deg,  #892250 0%, #aa2f40 100%);

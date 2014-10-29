@@ -1,35 +1,43 @@
 <ion-side-menus>
 
-  <ion-pane ion-side-menu-content>
-    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
-      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Índice</ion-nav-back-button>
+  <ion-pane ion-side-menu-content drag-content="false">
+    <ion-nav-bar class="bar bar-light nav-title-slide-ios7">
+      <ion-nav-back-button class="button-clear">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </ion-nav-back-button>
+      
+      <ion-nav-buttons side="left">
+        <img class="logo-dim" src="img/intuu.png">
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <a href ui-sref="">
+          <button class="button button-icon icon ion-location"></button>
+        </a>
+        <a href ui-sref="app.search">
+          <button class="button button-icon icon ion-search"></button>
+        </a>
+        <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
+      </ion-nav-buttons>
+
     </ion-nav-bar>
     <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
   </ion-pane>
 
-  <ion-side-menu side="left">
-    <header class="bar bar-header bar-stable">
-      <h1 class="title">{{user.first_name}}</h1>
-    </header>
-    <ion-content class="has-header">
+  <ion-side-menu side="right">
+    <ion-content>
+
       <ion-list>
-        <ion-item nav-clear menu-close ng-hide="user.authenticated" href="#/app/login">
-          Login
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+        <ion-item nav-clear menu-close href="#/app/login">
+          Iniciar sesión &nbsp; <i class="icon ion-log-in"></i>
         </ion-item>
         <ion-item nav-clear menu-close ng-show="user.authenticated" href="#/app/magazine">
-          Revista
+          Browse
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
+        <ion-item nav-clear menu-close href="#" ua-logout>
+          Cerrar sesión &nbsp; <i class="icon ion-log-out"></i>
         </ion-item>
-        <ion-item nav-clear menu-close ng-show="user.authenticated" href="#" ua-logout>
-          Log out
-        </ion-item>
-
       </ion-list>
+
     </ion-content>
   </ion-side-menu>
 </ion-side-menus>
