@@ -36,6 +36,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'UserApp'])
       }
     })
 
+    .state('app.login', {
+      url: '/login',
+      views: {
+        'menuContent' :{
+          templateUrl: 'templates/login.html'
+        }
+      },
+      data: { login: true }
+    })
+
+    .state('app.signup', {
+      url: '/signup',
+      views: {
+        'menuContent' :{
+          templateUrl: 'templates/signup.html'
+        }
+      },
+      data: { public: true }
+    })
+
     .state('app.search', {
       url: "/search",
       views: {
