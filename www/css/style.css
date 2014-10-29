@@ -1,1 +1,35 @@
 /* Empty. Add your own CSS if you like */
+
+.intuu-logo { /* No creo que se utilice pq el logo es una imagen */
+	background: #a83b64;
+	background: -moz-linear-gradient(-45deg,  #a83b64 0%, #575d96 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a83b64), color-stop(100%,#575d96));
+	background: -webkit-linear-gradient(-45deg,  #a83b64 0%,#575d96 100%);
+	background: -o-linear-gradient(-45deg,  #a83b64 0%,#575d96 100%);
+	background: -ms-linear-gradient(-45deg,  #a83b64 0%,#575d96 100%);
+	background: linear-gradient(135deg,  #a83b64 0%,#575d96 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a83b64', endColorstr='#575d96',GradientType=1 );
+}
+
+.intuu-gradient {
+	background: #892250;
+	background: -moz-linear-gradient(-45deg,  #892250 0%, #aa2f40 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#892250), color-stop(100%,#aa2f40));
+	background: -webkit-linear-gradient(-45deg,  #892250 0%,#aa2f40 100%);
+	background: -o-linear-gradient(-45deg,  #892250 0%,#aa2f40 100%);
+	background: -ms-linear-gradient(-45deg,  #892250 0%,#aa2f40 100%);
+	background: linear-gradient(135deg,  #892250 0%,#aa2f40 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#892250', endColorstr='#aa2f40',GradientType=1 );
+}
+
+.intuu-bg {
+ background-color: #e2d8d4;
+}
+
+h1.intuu-color, h2.intuu-color, h3.intuu-color {
+	color: #ba2e44;
+}
+
+i.intuu-color {
+	color: #a6a6a6;
+}
