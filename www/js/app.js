@@ -99,11 +99,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'UserApp'])
       }
     })
 
-    .state('app.browse', {
-      url: "/browse",
+    .state('app.magazine', {
+      url: "/magazine",
       views: {
         'menuContent' :{
-          templateUrl: "templates/browse.html"
+          templateUrl: "templates/magazine.html"
         }
       }
     })
