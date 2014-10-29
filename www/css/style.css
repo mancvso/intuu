@@ -36,6 +36,10 @@ h1.intuu-color, h2.intuu-color, h3.intuu-color {
 	color: #ba2e44;
 }
 
+h1, h2, h3, p, span {
+	font-family: 'Roboto' !important;
+}
+
 i.intuu-color {
 	color: #a6a6a6;
 }

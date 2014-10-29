@@ -10,11 +10,11 @@
         <img class="logo-dim" src="img/intuu.png">
       </ion-nav-buttons>
       <ion-nav-buttons side="right">
-        <a href ui-sref="">
-          <button class="button button-icon icon ion-location"></button>
+        <a href>
+          <button class="button button-icon icon ion-map"></button>
         </a>
         <a href ui-sref="app.search">
-          <button class="button button-icon icon ion-search"></button>
+          <button class="button button-icon icon ion-ios7-search"></button>
         </a>
         <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
       </ion-nav-buttons>
@@ -32,6 +32,9 @@
         </ion-item>
         <ion-item nav-clear menu-close ng-show="user.authenticated" href="#/app/browse">
           Browse
+        </ion-item>
+        <ion-item nav-clear menu-close ng-show="user.authenticated" href="#/app/cuestionario/1">
+          Cuestionario &nbsp; <i class="icon ion-clipboard"></i>
         </ion-item>
         <ion-item nav-clear menu-close href="#" ua-logout>
           Cerrar sesión &nbsp; <i class="icon ion-log-out"></i>
