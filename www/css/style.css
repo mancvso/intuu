@@ -52,3 +52,14 @@ i.intuu-color {
 .intuu-backdrop {
 	background: url('img/intu_logo_285x85.png') 50% 50% no-repeat;
 }
+
+/* We had no choice... */
+.intuu-gravity-bottom {
+	bottom: 150px;
+	position: absolute;
+}
+
+.intuu-gravity-bottom-most {
+	position: absolute;
+	bottom: 25px;
+}
