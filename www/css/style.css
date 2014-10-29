@@ -48,3 +48,7 @@ i.intuu-color {
 	width: 100%;
 	height: 760px;
 }
+
+.intuu-backdrop {
+	background: url('img/intu_logo_285x85.png') 50% 50% no-repeat;
+}
