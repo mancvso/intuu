@@ -60,7 +60,7 @@ i.intuu-color {
 }
 
 .intuu-backdrop {
-	background: url('../img/intuu_small.png') 50% 50% no-repeat;
+	background: url('../img/intuu_small.png') 50% 50% repeat;
 }
 
 /* We had no choice... */
@@ -145,12 +145,21 @@ h2 {
 }
 
 .content-box {
-	margin-top: 280px;
-	margin-left: 30px;
+	margin: 280px 0px 12px 32px;
 }
 
 .content-box > h2 {
 	width: 280px;
 	margin: 0;
 	padding: 6px 30px 6px 20px;
+}
+/* /fin */
+
+
+.slider-pager {
+	bottom: 4px;
+}
+
+.fix-border {
+	width: 321px !important;
 }
