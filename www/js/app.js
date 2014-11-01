@@ -90,6 +90,14 @@ angular.module('intuu', ['ionic', 'starter.controllers', 'UserApp'])
         }
       }
     })
+    .state('app.q4', {
+      url: "/cuestionario/4",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/q4.html"
+        }
+      }
+    })
 
     .state('app.search', {
       url: "/search",
