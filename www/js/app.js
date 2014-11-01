@@ -71,7 +71,8 @@ angular.module('intuu', ['ionic', 'starter.controllers', 'UserApp'])
         'menuContent' :{
           templateUrl: "templates/q1.html"
         }
-      }
+      },
+      data: { public: false }
     })
     .state('app.q2', {
       url: "/cuestionario/2",
@@ -137,6 +138,6 @@ angular.module('intuu', ['ionic', 'starter.controllers', 'UserApp'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/cuestionario');
+  $urlRouterProvider.otherwise('/app/cuestionario/1');
 });
 
