@@ -166,3 +166,34 @@ h2 {
 .fix-border {
 	width: 321px !important;
 }
+
+/* Magazine */
+
+.intuu-thumb {
+	height: 140px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 4px;
+}
+
+.intuu-thumb img{
+	width: 120%;
+	height: 190%;
+}
+
+.number-box {
+	position: absolute;
+	margin: 10px 0;
+	width: 30px;
+	text-align: center;
+}
+
+.intuu-header{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
