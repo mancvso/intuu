@@ -79,6 +79,7 @@ i.intuu-color {
     background: url('../img/mapa_off.png') no-repeat !important; /* God, forgive me */
     height: 33px;
     width: 33px;
+    margin-top: 2px;
 }
 .mapa-intuu:hover,
 .mapa-intuu:active,
@@ -90,6 +91,7 @@ i.intuu-color {
     background: url('../img/search_off.png') no-repeat !important; /* God, forgive me */
     height: 33px;
     width: 33px;
+    margin-top: 2px;
 }
 
 .buscar-intuu:hover,
@@ -102,6 +104,7 @@ i.intuu-color {
     background: url('../img/menu_off.png') no-repeat !important; /* God, forgive me */
     height: 33px;
     width: 33px;
+    margin-top: 2px;
 }
 .menu-intuu:hover,
 .menu-intuu:active,
