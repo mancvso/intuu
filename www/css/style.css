@@ -41,9 +41,14 @@ h4.intuu-color-light, h5.intuu-color-light, h6.intuu-color-light {
 	color: #ededed;
 }
 
-h1, h2, h3, p, span {
+* {
+	font-family: 'Helvetica' !important;
+}
+
+h1, h2, h3 {
 	font-family: 'Roboto' !important;
 }
+
 
 i.intuu-color {
 	color: #a6a6a6;
@@ -55,7 +60,7 @@ i.intuu-color {
 }
 
 .intuu-backdrop {
-	background: url('img/intu_logo_285x85.png') 50% 50% no-repeat;
+	background: url('../img/intuu_small.png') 50% 50% no-repeat;
 }
 
 /* We had no choice... */
@@ -67,4 +72,85 @@ i.intuu-color {
 .intuu-gravity-bottom-most {
 	position: absolute;
 	bottom: 25px;
+}
+
+
+.mapa-intuu {
+    background: url('../img/mapa_off.png') no-repeat !important; /* God, forgive me */
+    height: 33px;
+    width: 33px;
+}
+.mapa-intuu:hover,
+.mapa-intuu:active,
+.mapa-intuu:focus {
+    background: url('../img/mapa_on.png');
+}
+
+.buscar-intuu {
+    background: url('../img/search_off.png') no-repeat !important; /* God, forgive me */
+    height: 33px;
+    width: 33px;
+}
+
+.buscar-intuu:hover,
+.buscar-intuu:active,
+.buscar-intuu:focus {
+    background: url('../img/search_on.png');
+}
+
+.menu-intuu {
+    background: url('../img/menu_off.png') no-repeat !important; /* God, forgive me */
+    height: 33px;
+    width: 33px;
+}
+.menu-intuu:hover,
+.menu-intuu:active,
+.menu-intuu:focus {
+    background: url('../img/menu_on.png');
+}
+
+button.mapa-intuu, button.buscar-intuu {
+	margin-right: 4px;
+}
+
+/* Cambios a pedido del Leo */
+.padding {
+	padding: 10px 30px;
+}
+
+.button {
+	 border-width: 0;
+	 line-height: 45px;
+	 font-size: 14px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.white {
+	color: white;
+}
+
+.title-box {
+	text-align: right;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+.title-box > h1 {
+	width: 250px;
+	margin: 0;
+	padding: 6px 20px;
+}
+
+.content-box {
+	margin-top: 280px;
+	margin-left: 30px;
+}
+
+.content-box > h2 {
+	width: 280px;
+	margin: 0;
+	padding: 6px 30px 6px 20px;
 }
